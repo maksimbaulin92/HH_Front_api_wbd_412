@@ -12,6 +12,10 @@ const App = () => {
 
   const [isLogin, setIsLogin] = useState<boolean>(false);
 
+
+  //добавил кучу всего для pdf
+  //все есть, все работает
+  
   const [editedUser, setEditedUser] = useState<UserModel | null>(null);
 
   return (
