@@ -6,6 +6,12 @@ import { useState } from "react";
 import type { UserModel } from "./types";
 
 const App = () => {
+  
+  //мы тут сделали огромное домашнее задание котора затрагивает весь проект.
+  //что то где то изменено в больших количествах
+
+  const [isLogin, setIsLogin] = useState<boolean>(false);
+
   const [editedUser, setEditedUser] = useState<UserModel | null>(null);
 
   return (
