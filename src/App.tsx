@@ -6,18 +6,6 @@ import { useState } from "react";
 import type { UserModel } from "./types";
 
 const App = () => {
-
-
-  //изменения от другого разработчика
-  
-  //мы тут сделали огромное домашнее задание котора затрагивает весь проект.
-  //что то где то изменено в больших количествах
-
-  const [isLogin, setIsLogin] = useState<boolean>(false);
-
-
-  //добавил кучу всего для pdf
-  //все есть, все работает
   
   const [editedUser, setEditedUser] = useState<UserModel | null>(null);
 
